@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.routers import user
 from app.core.database import Base, engine
-from app.models import user as user_model
+from app.models import user, task
 
 app = FastAPI(title="Backend Service")
 
